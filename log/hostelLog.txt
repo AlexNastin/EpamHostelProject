@@ -1,0 +1,102 @@
+08.09.2014 15:35:38 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'idUser1' in 'where clause'
+08.09.2014 16:11:59 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: Before start of result set
+08.09.2014 16:15:29 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: Before start of result set
+08.09.2014 16:17:50 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: Invalid value for getInt() - 'A'
+08.09.2014 16:18:58 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: After end of result set
+08.09.2014 16:21:33 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: After end of result set
+08.09.2014 16:22:05 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: After end of result set
+08.09.2014 16:25:31 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: After end of result set
+08.09.2014 16:26:45 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: Before start of result set
+08.09.2014 16:27:15 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: Before start of result set
+08.09.2014 17:24:06 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: Invalid value for getInt() - 'ECONOM'
+08.09.2014 17:25:14 [main] ERROR by.epam.hostel.dao.impl.DBHotelDAO - java.sql.SQLException: Invalid value for getInt() - 'ECONOM'
+13.09.2014 16:42:53 [main] ERROR by.epam.hostel.dao.connectionpool.DbPropertyManager - File db.properties not found.
+java.io.FileNotFoundException: C:\Java\workspace\EpamWebProjectHostelAlexNastin\db.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:131)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at by.epam.hostel.dao.connectionpool.DbPropertyManager.<init>(DbPropertyManager.java:31)
+	at by.epam.hostel.dao.connectionpool.DbPropertyManager.<clinit>(DbPropertyManager.java:22)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<init>(ConnectionPool.java:41)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<clinit>(ConnectionPool.java:55)
+	at by.epam.hostel.dao.impl.DbHotelDao.<clinit>(DbHotelDao.java:41)
+	at by.epam.hostel.dao.DbDaoFactory.getDAO(DbDaoFactory.java:22)
+	at by.epam.hostel.main.Main.main(Main.java:50)
+13.09.2014 16:42:53 [main] INFO  by.epam.hostel.dao.connectionpool.ConnectionPool - Invalid number format
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<init>(ConnectionPool.java:47)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<clinit>(ConnectionPool.java:55)
+	at by.epam.hostel.dao.impl.DbHotelDao.<clinit>(DbHotelDao.java:41)
+	at by.epam.hostel.dao.DbDaoFactory.getDAO(DbDaoFactory.java:22)
+	at by.epam.hostel.main.Main.main(Main.java:50)
+13.09.2014 16:44:18 [main] ERROR by.epam.hostel.dao.connectionpool.DbPropertyManager - File db.properties not found.
+java.io.FileNotFoundException: C:\Java\workspace\EpamWebProjectHostelAlexNastin\src\db.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:131)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at by.epam.hostel.dao.connectionpool.DbPropertyManager.<init>(DbPropertyManager.java:31)
+	at by.epam.hostel.dao.connectionpool.DbPropertyManager.<clinit>(DbPropertyManager.java:22)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<init>(ConnectionPool.java:41)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<clinit>(ConnectionPool.java:55)
+	at by.epam.hostel.dao.impl.DbHotelDao.<clinit>(DbHotelDao.java:41)
+	at by.epam.hostel.dao.DbDaoFactory.getDAO(DbDaoFactory.java:22)
+	at by.epam.hostel.main.Main.main(Main.java:50)
+13.09.2014 16:44:18 [main] INFO  by.epam.hostel.dao.connectionpool.ConnectionPool - Invalid number format
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<init>(ConnectionPool.java:47)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<clinit>(ConnectionPool.java:55)
+	at by.epam.hostel.dao.impl.DbHotelDao.<clinit>(DbHotelDao.java:41)
+	at by.epam.hostel.dao.DbDaoFactory.getDAO(DbDaoFactory.java:22)
+	at by.epam.hostel.main.Main.main(Main.java:50)
+13.09.2014 16:44:22 [main] ERROR by.epam.hostel.dao.connectionpool.DbPropertyManager - File db.properties not found.
+java.io.FileNotFoundException: C:\Java\workspace\EpamWebProjectHostelAlexNastin\src\db.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:131)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at by.epam.hostel.dao.connectionpool.DbPropertyManager.<init>(DbPropertyManager.java:31)
+	at by.epam.hostel.dao.connectionpool.DbPropertyManager.<clinit>(DbPropertyManager.java:22)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<init>(ConnectionPool.java:41)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<clinit>(ConnectionPool.java:55)
+	at by.epam.hostel.dao.impl.DbHotelDao.<clinit>(DbHotelDao.java:41)
+	at by.epam.hostel.dao.DbDaoFactory.getDAO(DbDaoFactory.java:22)
+	at by.epam.hostel.main.Main.main(Main.java:50)
+13.09.2014 16:44:22 [main] INFO  by.epam.hostel.dao.connectionpool.ConnectionPool - Invalid number format
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<init>(ConnectionPool.java:47)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<clinit>(ConnectionPool.java:55)
+	at by.epam.hostel.dao.impl.DbHotelDao.<clinit>(DbHotelDao.java:41)
+	at by.epam.hostel.dao.DbDaoFactory.getDAO(DbDaoFactory.java:22)
+	at by.epam.hostel.main.Main.main(Main.java:50)
+15.09.2014 18:48:06 [main] ERROR by.epam.hostel.dao.connectionpool.DbPropertyManager - File db.properties not found.
+java.io.FileNotFoundException: C:\Java\workspace\EpamWebProjectHostelAlexNastin\build\classes\db.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:131)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at by.epam.hostel.dao.connectionpool.DbPropertyManager.<init>(DbPropertyManager.java:32)
+	at by.epam.hostel.dao.connectionpool.DbPropertyManager.<clinit>(DbPropertyManager.java:21)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<init>(ConnectionPool.java:41)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<clinit>(ConnectionPool.java:55)
+	at by.epam.hostel.dao.impl.DbHotelDao.<clinit>(DbHotelDao.java:41)
+	at by.epam.hostel.dao.DbDaoFactory.getDAO(DbDaoFactory.java:22)
+	at by.epam.hostel.main.Main.main(Main.java:50)
+15.09.2014 18:48:06 [main] INFO  by.epam.hostel.dao.connectionpool.ConnectionPool - Invalid number format
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<init>(ConnectionPool.java:47)
+	at by.epam.hostel.dao.connectionpool.ConnectionPool.<clinit>(ConnectionPool.java:55)
+	at by.epam.hostel.dao.impl.DbHotelDao.<clinit>(DbHotelDao.java:41)
+	at by.epam.hostel.dao.DbDaoFactory.getDAO(DbDaoFactory.java:22)
+	at by.epam.hostel.main.Main.main(Main.java:50)
+27 окт 2014 17:00:53.296 [ERROR] - by.epam.hostel.logic.CommandException: by.epam.hostel.dao.DaoException: java.sql.SQLException: Before start of result set
+27 окт 2014 17:05:34.149 [ERROR] - by.epam.hostel.logic.CommandException: by.epam.hostel.dao.DaoException: java.sql.SQLException: Before start of result set
+29 окт 2014 10:03:06.534 [ERROR] - by.epam.hostel.logic.CommandException: by.epam.hostel.dao.DaoException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect date value: '2014-21-12' for column 'departure' at row 1
+29 окт 2014 15:43:00.027 [ERROR] - by.epam.hostel.logic.CommandException: by.epam.hostel.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10' for key 'PRIMARY'
+29 окт 2014 15:43:06.657 [ERROR] - by.epam.hostel.logic.CommandException: by.epam.hostel.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10' for key 'PRIMARY'
+29 окт 2014 15:43:16.017 [ERROR] - by.epam.hostel.logic.CommandException: by.epam.hostel.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10' for key 'PRIMARY'
